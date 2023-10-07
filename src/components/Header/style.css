@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header{
+    z-index: 1;
+    position:fixed;
+    width: 100%;
+  
+}
+a{
+    text-decoration: none;
+    border: solid 2px transparent;
+    padding: 1%;
+    transition: 1s;
+}
+a:hover{
+    border-bottom-color: white ;
+    background-color: black;
+}
+img{
+    margin-right: 5%;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.582);
+    
+}
+.headerP1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.nomeMarca{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 60px;
+    max-width: 60%;
+    
+}
+.letraMarca{
+    color: black;
+}
+.headerP2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.divPesquisa{
+    display: flex;
+    margin-right: 1%;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    width: 40%;
+}
+li{
+    width: 100%;
+    margin: 0 5% 0 5%;
+}
+input{
+    margin-right: 1%;
+    font-size: 15px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.525);
+    border: none;
+    box-shadow: none;
+    text-align: right;
+    padding: 1%;
+    transition: 0.5s;
+    color: black;
+}
+input::placeholder {
+    text-align: right;
+  }
+  input:focus{
+    background-color: white;
+  }
+.linkCatalogos{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+@media screen and (max-width: 900px) {
+
+   #menuDesktop{
+    display: none;
+   }
+   .nomeMarca{
+        font-size: 30px;
+   }
+   #menuResponsive{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    
+    margin-right: 5%;
+    
+   }
+   .lines{
+    width: 40px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: white;
+   }
+   .headerP2{
+    flex-direction: column;
+    align-items: center;
+   }
+   .linkCatalogos{
+    margin: 5%;
+   }
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+*{
+    overflow-y: none;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.textoSlogan{
+    font-family: 'Megrim', cursive;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 40px;
+}
+#slogan2{
+    top: 50%;
+    left: 10%;
+    width: 30%;
+    color: black;
+}
+#slogan3{
+    top: 70%;
+    left: 70%;
+    width: 30%;
+}
+#slogan4{
+    top: 30%;
+    left: 10%;
+    width: 30%;
+   color: black;
+}
+.section{
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    background-attachment: fixed; 
+    
+}
+#section1{
+    
+    
+    background-image: url("./img/img_home2.jpg");
+}
+#section2{
+    background-image: url("./img/img_home9.jpg");
+}
+#section3{
+    background-image: url("./img/img_home12.jpg");
+}
+#section4{
+    background-image: url("./img/img_home16.jpg");
+}
+
+@media screen and (max-width: 800px) {
+
+    .textoSlogan{
+        font-size: 30px;
+    }
+    #slogan2{
+        top: 30%;
+    }
+    #slogan4{
+        top: 75%;
+    }
+}
