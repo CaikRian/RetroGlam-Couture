@@ -5,7 +5,7 @@ function Header(){
     return(
         <header>
             <div className="headerP1">
-                <span className="nomeMarca"><span className="letraMarca">R</span>etroGlam <span className="letraMarca">C</span>outure</span>
+                <span className="nomeMarca"><span className="letraMarca">R</span>etro<span className="letraMarca">G</span>lam <span className="letraMarca">C</span>outure</span>
                 <ul id="menuDesktop">
                     <li><a href="#">Sobre nós</a></li>
                     <li><a href="#">Ajuda</a></li>

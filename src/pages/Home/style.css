@@ -27,9 +27,9 @@
 }
 #slogan4{
     top: 30%;
-    left: 10%;
+    left: 15%;
     width: 30%;
-   color: black;
+   color: white;
 }
 .section{
     position: relative;
@@ -39,10 +39,9 @@
     scroll-snap-align: start;
     background-attachment: fixed; 
     
+    
 }
 #section1{
-    
-    
     background-image: url("./img/img_home2.jpg");
 }
 #section2{
@@ -52,7 +51,8 @@
     background-image: url("./img/img_home12.jpg");
 }
 #section4{
-    background-image: url("./img/img_home16.jpg");
+    background-image: url("./img/img_home17.jpg");
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -64,6 +64,8 @@
         top: 30%;
     }
     #slogan4{
-        top: 75%;
+        top:60%;
+        left: 40%;
     }
+   
 }

@@ -18,7 +18,7 @@ a{
     transition: 1s;
 }
 a:hover{
-    border-bottom-color: white ;
+    
     background-color: black;
 }
 img{
@@ -36,7 +36,7 @@ img{
 .nomeMarca{
     font-family: 'Major Mono Display', monospace;
     font-size: 60px;
-    max-width: 60%;
+    max-width: 80%;
     
 }
 .letraMarca{
@@ -57,7 +57,7 @@ ul{
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    width: 40%;
+    width: 30%;
 }
 li{
     width: 100%;
