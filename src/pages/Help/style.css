@@ -6,19 +6,23 @@
     flex-direction: column;
     padding-left: 1%;
     width: 99%;
+    
 }
 
 .subMenuHelp{
     flex-direction: column;
     padding-left: 15%;
-    width: 85%;
+    padding-right: 5%;
+    width: 80%;
     font-size: 15px;
     margin-bottom: 3%;
+    
 }
 
 .subMenuType{
     list-style-type:circle;
     margin: 0.5%;
+    white-space: normal;
 }
 
 .tituloMenuHelp{

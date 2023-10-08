@@ -5,7 +5,7 @@ function Help(){
     return(
 
         <div className="pages">
-            <h1 className="tituloHelp">Ajuda</h1>
+            <h1 className="tituloHelp">AJUDA</h1>
             <ul className="menuHelp">
                 <li><h2 className="tituloMenuHelp">1. Como Comprar na RetroGlam Couture:</h2>
                     <ul className="subMenuHelp">

@@ -3,10 +3,10 @@ import img_about from "./img/img_home8.jpg"
 function About(){
 
     return(
-        <div className="pages">
-            
-            <h1>Sobre nós</h1>
-            
+        
+            <div className="pages" id="pageHelp">
+                <div className="pageDescr">
+            <h1>SOBRE NÓS</h1>
             <p>  &nbsp; Na RetroGlam Couture, acreditamos que a moda é uma forma de arte, uma maneira de expressar individualidade
                  e uma maneira de reviver a elegância atemporal de décadas passadas. Fundada por um grupo de entusiastas da
                   moda que compartilham uma paixão por peças vintage, nossa marca nasceu da busca pela sofisticação e pelo 
@@ -29,6 +29,7 @@ function About(){
                  celebramos a elegância, a autenticidade e a atemporalidade da moda.</p>
            
             <p>Agradecemos por escolher "RetroGlam Couture" como sua destinação de moda vintage e glamour.</p>
+            </div>
             <img src={img_about} className="imgAbout"/>
          
         </div>
