@@ -45,7 +45,7 @@ function Home() {
   return (
     <div className="container" ref={containerRef}>
       <div className="section" id="section1">
-        <div className="textoSlogan">Reviva a Época, Incorpore o Glamour.</div>
+        <div className="textoSlogan" id='slogan1'>Reviva a Época, Incorpore o Glamour.</div>
       </div>
       <div className="section" id="section2">
         <div className="textoSlogan" id='slogan2'>O Passado na Moda, o Futuro no Estilo.</div>

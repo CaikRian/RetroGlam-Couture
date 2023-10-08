@@ -35,7 +35,7 @@ img{
 }
 .nomeMarca{
     font-family: 'Major Mono Display', monospace;
-    font-size: 60px;
+    font-size: 40px;
     max-width: 80%;
     
 }
@@ -61,6 +61,7 @@ ul{
 }
 li{
     width: 100%;
+    white-space: nowrap;
     margin: 0 5% 0 5%;
 }
 input{
@@ -91,6 +92,16 @@ input::placeholder {
 
    #menuDesktop{
     display: none;
+   }
+   .divPesquisa{
+    width: 100%;
+    padding-left: 10%;
+   }
+   .linkCatalogos{
+    width: 100%;
+   }
+   input{
+    width: 80%;
    }
    .nomeMarca{
         font-size: 30px;

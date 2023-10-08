@@ -1,15 +1,16 @@
 import "./style.css";
 import img_bag from "./img/img_Bag.png"
+import { Link } from 'react-router-dom';
 function Header(){
 
     return(
         <header>
             <div className="headerP1">
-                <span className="nomeMarca"><span className="letraMarca">R</span>etro<span className="letraMarca">G</span>lam <span className="letraMarca">C</span>outure</span>
+                <Link to="/" className="nomeMarca"><span className="letraMarca">R</span>etro<span className="letraMarca">G</span>lam <span className="letraMarca">C</span>outure</Link>
                 <ul id="menuDesktop">
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Ajuda</a></li>
-                    <li><a href="#">Cadastro/Login</a></li>
+                    <li><Link to="/About">Sobre nós</Link></li>
+                    <li><Link to="/Help">Ajuda</Link></li>
+                    <li><Link to="/">Cadastro/Login</Link></li>
                 </ul>
                 <div id="menuResponsive">
                     <div className="lines"></div>

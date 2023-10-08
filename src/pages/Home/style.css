@@ -60,12 +60,21 @@
     .textoSlogan{
         font-size: 30px;
     }
+    #slogan1{
+        left: 10%;
+    }
     #slogan2{
-        top: 30%;
+        top: 50%;
+        left: 10%;
+        color: white;
+    }
+    #slogan3{
+        top: 60%;
+        left: 50%;
     }
     #slogan4{
         top:60%;
-        left: 40%;
+        left: 10%;
     }
    
 }
