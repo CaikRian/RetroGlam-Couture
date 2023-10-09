@@ -5,8 +5,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30vh;
-    background-color: black;
+    padding-top: 25vh;
+    background-color: rgb(18, 18, 18);
     padding-bottom: 1vh;
     background-size: 10%;
     background-position: left top;
@@ -32,7 +32,6 @@ h1{
     width: 100%;
     justify-content: center;
     font-family: 'Bodoni Moda', serif;
-  
     background-color: white;
     color: black;
 }
@@ -56,7 +55,7 @@ h2{
         
     }
     .imgAbout{
-        width: 300px;
+        width: 200px;
         height: 100%;
     }
 
