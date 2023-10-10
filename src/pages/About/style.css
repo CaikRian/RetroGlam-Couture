@@ -1,11 +1,11 @@
 body{
-    background-color: black;
+    background-color: rgb(18, 18, 18);
 }
 .pages{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 25vh;
+    padding-top: 30vh;
     background-color: rgb(18, 18, 18);
     padding-bottom: 1vh;
     background-size: 10%;
@@ -19,7 +19,7 @@ body{
     
 }
 .pageDescr{
-    width: 70%;
+    width: 100%;
 }
 .imgAbout{
     width: 350px;

@@ -50,40 +50,79 @@ function Header() {
 
     function BtnMenuResponsive(){
         const OpMenuResponsive = document.getElementById("OpMenuResponsive");
+  
+        const line1 = document.getElementById("line1");
+        const line2 = document.getElementById("line2");
+        const line3 = document.getElementById("line3");
 
-        if(OpMenuResponsive.style.display !== 'flex'){
-            OpMenuResponsive.style.display = 'flex';
-
+        if(OpMenuResponsive.style.opacity !== '1'){
+            
+            OpMenuResponsive.style.right = '0';
+            line1.style.top = '50%';
+            line2.style.top = '50%';
+            line3.style.top = '50%';
+            line1.style.transform = 'rotate(45deg)';
+            line2.style.transform = 'rotate(45deg)';
+            line3.style.transform = 'rotate(-45deg)';
+            OpMenuResponsive.style.opacity = 1;
         } else{
-            OpMenuResponsive.style.display = 'none';
+            
+            OpMenuResponsive.style.right = '-100%';
+            line1.style.transform = 'rotate(0deg)';
+            line2.style.transform = 'rotate(0deg)';
+            line3.style.transform = 'rotate(0deg)';
+            line1.style.top = '40%';
+            line2.style.top = '60%';
+            line3.style.top = '80%';
+            OpMenuResponsive.style.opacity = 0;
+
+            
         }
+    }
+
+    function fecharMenuResp(){
+
+      const OpMenuResponsive = document.getElementById("OpMenuResponsive");
+      const line1 = document.getElementById("line1");
+      const line2 = document.getElementById("line2");
+      const line3 = document.getElementById("line3");
+
+      OpMenuResponsive.style.right = '-100%';
+      OpMenuResponsive.style.opacity = '0';
+      line1.style.transform = 'rotate(0deg)';
+      line2.style.transform = 'rotate(0deg)';
+      line3.style.transform = 'rotate(0deg)';
+      line1.style.top = '40%';
+      line2.style.top = '60%';
+      line3.style.top = '80%';
+
     }
 
   return (
     <header className={headerClass()}>
       <div className="headerP1">
-        <Link to="/" className="nomeMarca"><span className="letraMarca">R</span>etro<span className="letraMarca">G</span>lam <span className="letraMarca">C</span>outure</Link>
+        <Link to="/" className="nomeMarca"  onClick={fecharMenuResp}><span className="letraMarca">R</span>etro<span className="letraMarca">G</span>lam <span className="letraMarca">C</span>outure</Link>
         <ul id="menuDesktop">
           <li><Link to="/About">Sobre nós</Link></li>
           <li><Link to="/Help">Ajuda</Link></li>
           <li><Link to="/">Cadastro/Login</Link></li>
         </ul>
         <div id="menuResponsive" onClick={BtnMenuResponsive}>
-          <div className="lines"></div>
-          <div className="lines"></div>
-          <div className="lines"></div>
+          <div className="lines" id='line1'></div>
+          <div className="lines" id='line2'></div>
+          <div className="lines" id='line3'></div>
         </div>
         <div id='OpMenuResponsive'>
-            <Link to="/About">Sobre nós</Link>
-            <Link to="/Help">Ajuda</Link>
-            <Link to="/">Cadastro/Login</Link>
+            <Link to="/About" className='OptionsMenuResp' onClick={fecharMenuResp}>Sobre nós</Link>
+            <Link to="/Help" className='OptionsMenuResp' onClick={fecharMenuResp}>Ajuda</Link>
+            <Link to="/" className='OptionsMenuResp' id='OpCadLogin' onClick={fecharMenuResp}>Cadastro/Login</Link>
         </div>
       </div>
       
       <div className="headerP2">
         <ul className="linkCatalogos">
-          <li><a href="#">MULHER</a></li>
-          <li><a href="#">HOMEM</a></li>
+          <li><a href="#">FEMININO</a></li>
+          <li><a href="#">MASCULINO</a></li>
           <li><a href="#">INFANTIL</a></li>
         </ul>
         <div className="divPesquisa">
