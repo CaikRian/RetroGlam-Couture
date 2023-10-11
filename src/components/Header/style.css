@@ -93,6 +93,7 @@ img{
     font-family: 'Major Mono Display', monospace;
     font-size: 40px;
     max-width: 80%;
+    z-index: 1;
     
 }
 .nomeMarca:hover{
@@ -176,15 +177,16 @@ input::placeholder {
     position: relative;
     transition: 2s;
     margin-right: 5%;
+    z-index: 1;
    }
    
    #OpMenuResponsive{
     display: flex;
     align-items: center;
     width: 100%;
-    height: 75%;
+    height: 77%;
     background-color: rgb(18, 18, 18);
-    top: 25%;
+    padding-top: 10%;
     right: -80%;
     position:absolute;
     font-size: 17px;
@@ -243,5 +245,6 @@ input::placeholder {
    }
    .linkCatalogos{
     margin: 5%;
+    font-size: 14px;
    }
 }
