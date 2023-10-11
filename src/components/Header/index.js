@@ -121,9 +121,9 @@ function Header() {
       
       <div className="headerP2">
         <ul className="linkCatalogos">
-          <li><a href="#">FEMININO</a></li>
-          <li><a href="#">MASCULINO</a></li>
-          <li><a href="#">INFANTIL</a></li>
+          <li><Link to="/CatFem">FEMININO</Link></li>
+          <li><Link to="/CatMasc">MASCULINO</Link></li>
+          <li><Link to="/CatChild">INFANTIL</Link></li>
         </ul>
         <div className="divPesquisa">
           <input type="text" placeholder="Pesquisar"></input>
