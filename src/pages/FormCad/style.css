@@ -5,6 +5,13 @@ form div{
     margin-bottom: 5%;
 }
 form div input{
-    margin-left: 20px;
-    width: 100px;
+    margin-left: 10px;
+    width: 120px;
+}
+
+@media screen and (max-width: 800px) {
+    form div{
+        flex-direction: column;
+        margin-top: 10px;
+    }
 }
