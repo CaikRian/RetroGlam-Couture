@@ -217,19 +217,15 @@ input{
     width: 80%;
    }
    .nomeMarca{
-        font-size: 30px;
-        
+    font-size: 30px;
    }
    .nomeMarca:hover a{
-    
     background-color: transparent;
     }
   
    .lines{
-    
     width: 100%;
     height: 2px;
-    margin-top: 1px;
     background-color: white;
     position: absolute;
     transition: 0.5s;
