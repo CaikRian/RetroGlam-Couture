@@ -1,0 +1,10 @@
+form div{
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 5%;
+}
+form div input{
+    margin-left: 20px;
+    width: 100px;
+}

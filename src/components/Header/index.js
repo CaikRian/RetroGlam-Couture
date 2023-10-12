@@ -105,7 +105,8 @@ function Header() {
         <ul id="menuDesktop">
           <li><Link to="/About">Sobre nós</Link></li>
           <li><Link to="/Help">Ajuda</Link></li>
-          <li><Link to="/">Cadastro/Login</Link></li>
+          <li><Link to="/FormCad">Cadastro</Link></li>
+          <li><Link to="/FormLogin">Login</Link></li>
         </ul>
         <div id="menuResponsive" onClick={BtnMenuResponsive}>
           <div className="lines" id='line1'></div>
@@ -115,7 +116,9 @@ function Header() {
         <div id='OpMenuResponsive'>
             <Link to="/About" className='OptionsMenuResp' onClick={fecharMenuResp}>Sobre nós</Link>
             <Link to="/Help" className='OptionsMenuResp' onClick={fecharMenuResp}>Ajuda</Link>
-            <Link to="/" className='OptionsMenuResp' id='OpCadLogin' onClick={fecharMenuResp}>Cadastro/Login</Link>
+            <Link to="/FormCad" className='OptionsMenuResp' onClick={fecharMenuResp}>Cadastro</Link>
+            <Link to="/FormLogin" className='OptionsMenuResp' onClick={fecharMenuResp}>Login</Link>
+            
         </div>
       </div>
       

@@ -1,0 +1,46 @@
+form{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border: solid 1px transparent;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+form input{
+    margin-bottom: 5%;
+    padding: 15px;
+    border: solid 1px transparent;
+    border-bottom-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+form input::placeholder{
+    color: white;
+}
+form input:focus{
+    color: black;
+}
+form button{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+}
+form a{
+    cursor: pointer;
+    font-weight: normal;
+}
+form a:hover{
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    
+}
+

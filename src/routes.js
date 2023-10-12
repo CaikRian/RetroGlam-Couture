@@ -6,6 +6,8 @@ import Help from './pages/Help';
 import CatFem from './pages/CatFem';
 import CatMasc from './pages/CatMasc';
 import CatChild from './pages/CatChild';
+import FormLogin from './pages/FormLogin';
+import FormCad from './pages/FormCad';
 //import Footer from './components/Footer';
 
 
@@ -20,6 +22,8 @@ function RoutesApp() {
             <Route path="/CatFem" element={<CatFem/>} />
             <Route path="/CatMasc" element={<CatMasc/>} />
             <Route path="/CatChild" element={<CatChild/>} />
+            <Route path="/FormLogin" element={<FormLogin/>} />
+            <Route path="/FormCad" element={<FormCad/>} />
         </Routes>
         
         </BrowserRouter>
