@@ -1,5 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import "./style.css";
+import logotipo from './img/Logotipo.png';
+import icon_facebook from './img/icon_facebook.png';
+import icon_instagram from './img/icon_instagram.png';
+import icon_x from './img/icon_x.png';
 
 function Home() {
   const containerRef = useRef(null);
@@ -55,6 +59,21 @@ function Home() {
       </div>
       <div className="section" id="section4">
         <div className="textoSlogan" id='slogan4'>Autenticidade Retro, Sofisticação Contemporânea.</div>
+      </div>
+      <div className="section" id="section5">
+            <img className="footerLogo" src={logotipo}/>
+            <p>Site desenvolvido por Caik</p>
+            <div className="footerInfo">
+                <p>&copy; 2023 RetroGlam Couture</p>
+                <p>Endereço: 123 Fashion Street, Cidade da Moda, País</p>
+                <p>Email: info@retroglamcouture.com</p>
+                <p>Telefone: +1 (123) 456-7890</p>
+            </div>
+          <div className="footerSocial">
+            <a href="#" class="socialIcon"><img src={icon_facebook}/></a>
+            <a href="#" class="socialIcon"><img src={icon_instagram}/></a>
+            <a href="#" class="socialIcon"><img src={icon_x}/></a>
+          </div>
       </div>
     </div>
   );

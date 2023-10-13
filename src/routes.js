@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import About from './pages/About';
 import Help from './pages/Help';
 import CatFem from './pages/CatFem';
@@ -25,7 +26,7 @@ function RoutesApp() {
             <Route path="/FormLogin" element={<FormLogin/>} />
             <Route path="/FormCad" element={<FormCad/>} />
         </Routes>
-        
+        <Footer/>
         </BrowserRouter>
     )
 }

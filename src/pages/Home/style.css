@@ -40,8 +40,6 @@
     background-position: center;
     scroll-snap-align: start;
     background-attachment: fixed; 
-    
-    
 }
 #section1{
     background-image: url("./img/img_home2.jpg");
@@ -54,7 +52,18 @@
 }
 #section4{
     background-image: url("./img/img_home17.jpg");
-    
+}
+#section5{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -100px 150px black;
+    background-color: white;
+}
+#section5 p{
+    margin: 1%;
+    color: black;
 }
 
 @media screen and (max-width: 800px) {
@@ -78,5 +87,8 @@
         top:60%;
         left: 10%;
     }
-   
+    #section5{
+        flex-direction: column;
+    
+    }
 }
