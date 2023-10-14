@@ -34,21 +34,22 @@ Para executar este projeto em seu ambiente local, siga estas etapas:
 
 2. Navegue até o diretório do projeto:
     
-    cd retroglam-couture
+       cd retroglam-couture
 3. Instale as dependências do projeto:
     
-    npm install
+       npm install
 4. Inicie o servidor de desenvolvimento:
     
-    npm start
-5. Abra o seu navegador e acesse 
-    http://localhost:3000 para visualizar o site.
+       npm start
+5. Abra o seu navegador e acesse
+    
+       http://localhost:3000 para visualizar o site.
 
 ## Contribuições
 Ficaríamos felizes com contribuições para aprimorar este projeto, seja corrigindo bugs, adicionando novos recursos ou melhorando a aparência e a usabilidade. Sinta-se à vontade para abrir problemas (issues) e enviar solicitações de pull (pull requests).
 
 ## Licença
-Este é um projeto fictício apenas para fins de demonstração. Não é para uso comercial. Consulte o arquivo [LICENSE][MIT] para mais detalhes.
+Este é um projeto fictício apenas para fins de demonstração. Não é para uso comercial. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 Agradecemos por visitar o "RetroGlam Couture"! Esperamos que você tenha gostado de explorar o nosso projeto fictício e as tecnologias envolvidas.
 
