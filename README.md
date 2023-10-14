@@ -46,10 +46,10 @@ Para executar este projeto em seu ambiente local, siga estas etapas:
        http://localhost:3000 para visualizar o site.
 
 ## Contribuições
-Ficaríamos felizes com contribuições para aprimorar este projeto, seja corrigindo bugs, adicionando novos recursos ou melhorando a aparência e a usabilidade. Sinta-se à vontade para abrir problemas (issues) e enviar solicitações de pull (pull requests).
+Fico grato com contribuições para aprimorar este projeto, seja corrigindo bugs, adicionando novos recursos ou melhorando a aparência e a usabilidade. Sinta-se à vontade para abrir problemas (issues) e enviar solicitações de pull (pull requests).
 
 ## Licença
 Este é um projeto fictício apenas para fins de demonstração. Não é para uso comercial. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Agradecemos por visitar o "RetroGlam Couture"! Esperamos que você tenha gostado de explorar o nosso projeto fictício e as tecnologias envolvidas.
+Agradeço por visitar o "RetroGlam Couture"! Espero que você tenha gostado de explorar o projeto fictício e as tecnologias envolvidas.
 
