@@ -12,6 +12,7 @@ footer{
 footer p, footer a{
     color: black;
     margin: 1%;
+    font-size: 11px;
 }
 
 .footerLogo{
@@ -47,4 +48,5 @@ footer p, footer a{
         justify-content: center;
         width: 100%;
     }
+   
 }
