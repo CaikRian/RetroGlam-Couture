@@ -42,7 +42,7 @@ class CadastroUsuario extends Component {
     render() {
         return (
             <div className="pages">
-                <h1>Cadastro</h1>
+                <h1>CADASTRO</h1>
                 <form onSubmit={this.handleSubmit}>
                     
                     <input placeholder='Nome Completo' type="text" id="nome" name="nome" value={this.state.nome} onChange={this.handleInputChange} required />

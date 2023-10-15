@@ -30,7 +30,7 @@ class FormLogin extends Component {
   render() {
     return (
       <div className="pages">
-        <h1>Login</h1>
+        <h1>LOGIN</h1>
         <form onSubmit={this.handleSubmit}>
 
             <input placeholder="E-mail" type="email" name="email" value={this.state.email} onChange={this.handleChange} required />

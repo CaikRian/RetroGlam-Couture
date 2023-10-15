@@ -105,8 +105,7 @@ function Header() {
         <ul id="menuDesktop">
           <li><Link to="/About">Sobre nós</Link></li>
           <li><Link to="/Help">Ajuda</Link></li>
-          <li><Link to="/FormCad">Cadastro</Link></li>
-          <li><Link to="/FormLogin">Login</Link></li>
+          <li><Link to="/FormCad">Cadastro</Link> | <Link to="/FormLogin">Login</Link></li>
         </ul>
         <div id="menuResponsive" onClick={BtnMenuResponsive}>
           <div className="lines" id='line1'></div>
@@ -129,8 +128,9 @@ function Header() {
           <li><Link to="/CatChild">INFANTIL</Link></li>
         </ul>
         <div className="divPesquisa">
+          <span className='material-symbols-outlined' id='shopping-bag'>shopping_bag</span>
           <input type="text" placeholder="Pesquisar"></input>
-          <img src={img_bag} alt="Sacola de compras"></img>
+          <span className='material-symbols-outlined' id='search'>search</span>
         </div>
       </div>
     </header>
