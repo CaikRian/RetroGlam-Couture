@@ -63,9 +63,8 @@
 .BtnSacola{
     background-color: rgb(253, 1, 1);
     color: black;
-    width: 200px;
+    width: 150px;
     height: 50px;
-    border-radius: 5px;
     font-size: 20px;
     transition: 0.5s;
     border-style: none;
@@ -75,7 +74,25 @@
     box-shadow: 0px 0px 10px rgb(249, 51, 51);
     background-color:rgb(249, 51, 51);
 }
-
+.opCompraSacola{
+    display: flex;
+}
+.opCompraSacola #shopping-bag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin:0%;
+    border-radius: 0%;
+    border: solid 1px white;
+    background-color: transparent;
+   
+}
+.opCompraSacola #shopping-bag:hover{
+    
+    background-color: white;
+    color: black;
+}
 @media screen and (max-width: 900px) {
 
 .sectionProds{

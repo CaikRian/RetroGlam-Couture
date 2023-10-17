@@ -39,3 +39,11 @@
 .descrValor{
     font-size: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .cardModa{
+        width: 300px;
+        height: 400px;
+        
+    }
+}

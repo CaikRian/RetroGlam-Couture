@@ -72,7 +72,11 @@ function DescrProd(){
                         <div className='valorAvista'>por {valorTotal} à vista</div>
                         <div className='valorParcelado'>ou {valorParcelado}</div>
                     </div>
-                    <button className='BtnSacola'>COMPRAR</button>
+                    <div className='opCompraSacola'>
+                        <span className='material-symbols-outlined' id='shopping-bag'>shopping_bag</span>
+                        <button className='BtnSacola'>COMPRAR</button>
+                    </div>
+                    
 
                 </div>
             </div>
